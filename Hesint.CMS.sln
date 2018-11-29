@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesint.CMS.WebUI", "Hesint.CMS.WebUI\Hesint.CMS.WebUI.csproj", "{505071C5-FC84-4635-A298-0E99DA0B0494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hesint.Libs", "Hesint.Libs", "{5FF04210-EA5E-46E4-BAD5-0BD672832189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesint.EntityFramework", "Hesint.EntityFramework\Hesint.EntityFramework.csproj", "{70AC0572-D99A-4E96-A9B9-8A0D362513F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesint.Core", "Hesint.Core\Hesint.Core.csproj", "{A142C062-4B50-4298-9A71-78C8224C0667}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hesint.Utility", "Hesint.Utility\Hesint.Utility.csproj", "{B168CE9D-E9EA-4549-95CE-5C7A989864F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hesint.Permissions", "Hesint.Permissions\Hesint.Permissions.csproj", "{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505071C5-FC84-4635-A298-0E99DA0B0494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505071C5-FC84-4635-A298-0E99DA0B0494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505071C5-FC84-4635-A298-0E99DA0B0494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505071C5-FC84-4635-A298-0E99DA0B0494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70AC0572-D99A-4E96-A9B9-8A0D362513F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AC0572-D99A-4E96-A9B9-8A0D362513F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AC0572-D99A-4E96-A9B9-8A0D362513F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AC0572-D99A-4E96-A9B9-8A0D362513F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A142C062-4B50-4298-9A71-78C8224C0667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A142C062-4B50-4298-9A71-78C8224C0667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A142C062-4B50-4298-9A71-78C8224C0667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A142C062-4B50-4298-9A71-78C8224C0667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B168CE9D-E9EA-4549-95CE-5C7A989864F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B168CE9D-E9EA-4549-95CE-5C7A989864F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B168CE9D-E9EA-4549-95CE-5C7A989864F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B168CE9D-E9EA-4549-95CE-5C7A989864F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70AC0572-D99A-4E96-A9B9-8A0D362513F5} = {5FF04210-EA5E-46E4-BAD5-0BD672832189}
+		{A142C062-4B50-4298-9A71-78C8224C0667} = {5FF04210-EA5E-46E4-BAD5-0BD672832189}
+		{B168CE9D-E9EA-4549-95CE-5C7A989864F9} = {5FF04210-EA5E-46E4-BAD5-0BD672832189}
+		{AAD7F2B6-68F6-41C5-97EE-2E9CCCBDFB8B} = {5FF04210-EA5E-46E4-BAD5-0BD672832189}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB75F19D-018D-4822-83AD-78E9EBA9EE29}
+	EndGlobalSection
+EndGlobal
